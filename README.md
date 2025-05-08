@@ -79,3 +79,7 @@ This project is distributed for academic and educational purposes. Please respec
 ## 🙋‍♂️ Questions or Contributions?
 
 Feel free to open issues or pull requests. Feedback is welcome!
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.

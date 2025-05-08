@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore egg-info metadata
+*.egg-info/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache and package files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment and dependency files
+.envrc
+.venv
+*.env
+*.venv
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Data files
+#*.csv
+#*.txt
+*.tsv
+*.dat
+*.json
+*.pkl
+*.h5
+*.db
+*.sqlite
+*.parquet
+/data/tabular/*.csv
+/data/clean/
+data/raw/*.txt
+
+
+# Large binary files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Machine learning models and outputs
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# TensorBoard logs
+logs/
+runs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook output
+*.nbconvert/
+
+# Colab-specific
+.colab/
+
+# PyCharm
+.idea/
+
+# MacOS-specific
+.DS_Store

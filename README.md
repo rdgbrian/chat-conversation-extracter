@@ -39,3 +39,43 @@ chat-conversation-extracter/
         ├── message_cluster.py        # Topic modeling and clustering
         ├── message_gui.py            # Interactive message viewer
         └── preprocess_chat_data.py   # Raw data parsing and cleaning
+```
+
+---
+
+## 🛠 Setup
+
+### ✅ Install dependencies
+
+```bash
+pip install -e .
+```
+
+Make sure you are using a virtual environment (e.g. `venv`, `conda`, or `poetry`) to avoid polluting system packages.
+
+---
+
+## 🔐 Data Notice
+
+Raw chat data (e.g., `.txt`, `.csv` exports from WhatsApp) is **excluded from this repository** for privacy reasons. The `/data/raw` and `/data/tabular` folders are used during local development only.
+
+> See `data/raw/README.md` and `data/tabular/README.md` for more information on expected formats and usage.
+
+---
+
+## 📈 Demo Notebooks
+
+- `notebooks/nlp-conversation-demo.ipynb`: End-to-end pipeline with preprocessing, clustering, and summarization
+- `notebooks/bert-topic-testing.ipynb`: Testing BERTopic configurations on message sets
+
+---
+
+## 📝 License
+
+This project is distributed for academic and educational purposes. Please respect privacy concerns when working with real messaging data.
+
+---
+
+## 🙋‍♂️ Questions or Contributions?
+
+Feel free to open issues or pull requests. Feedback is welcome!
